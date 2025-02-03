@@ -1,1 +1,5 @@
-@import url(header.css);
+@import url("header.css");
+@import url("newArrival.css");
+@import url("our-product.css");
+@import url("type.css");
+@import url("footer.css");
