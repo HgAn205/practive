@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img {width: 100%;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+body {
+    font-family: 'Poppins';
+}
+a.bussiness-name {
+    font-family: 'Montserrat';
+    color: #000000;
+}

@@ -1,0 +1,32 @@
+section.type {
+    padding: 56px 131px ;
+}
+section.type div.title {
+    display: flex; 
+    text-align: center;
+    flex-flow: column;
+}
+section.type div.title h2 {
+    color: #333333;
+    font-size: 32px;
+}
+section.type div.title h6 {
+    color: #666666;
+    font-size: var(--text-large-fontsize);
+    margin-bottom: 62px;
+}
+section.type div.list-choice {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+section.type div.list-choice img {
+    border-radius: 8px;
+    width: 100%;
+}
+section.type div.list-choice h4 {
+    margin-top: 30px;
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+}

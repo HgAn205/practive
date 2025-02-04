@@ -1,0 +1,12 @@
+:root {
+    --text-title-color-Gold: #B88E2F;
+    --text-title-color: #3A3A3A;
+    --text-header-color: #000000;
+    --text-type-color: #898989;
+    --text-price-sale: #B0B0B0;
+    --text-sale-color: #FFFFFF;
+    --text-title-fontsize: 40px;
+    --text-small-fontsize: 16px;
+    --text-medium-fontsize: 18px;
+    --text-large-fontsize: 20px;
+}

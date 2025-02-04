@@ -1,3 +1,29 @@
 header {
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 54px;
+}
+header a.bussiness-name {
+    display: flex;
+    gap: 4.5px;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+header ul.navigate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+header ul li a {
+    color: var(--text-header-color);
+    font-size: var(--text-small-fontsize);
+}
+header ul.tool {
+    display: flex;
+    gap: 45px;
+}
+header ul.tool li a {
+    font-size: var(--text-large-fontsize);
 }
