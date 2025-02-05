@@ -1,0 +1,109 @@
+section.our-product {
+    text-align: center;
+    color: var(--text-title-color);
+    font-weight: bold;
+    font-size: var(--text-title-fontsize);
+}
+section.our-product h2 {
+    font-size: var(--text-title-fontsize);
+    color: var(--text-title-color);
+    margin-bottom: 32px;
+}
+div.frame-top {
+    margin-bottom: 32px;
+}
+div.spacing {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+div.spacing article {
+    background-color: var(--article-background-color);
+    text-align: left;
+    border-radius: 18px;
+    position: relative;
+}
+div.spacing article img {
+    border-radius: 18px 18px 0px 0px;
+    width: 285px;
+    height: 301px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+div.spacing article div.content {
+    padding: 0px 15px;
+}
+article div.content h4 {
+    color: var(--text-title-color);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+article div.content h6 {
+    color: var(--text-type-color);
+    font-size: var(--text-small-fontsize);
+    margin-bottom: 8px;
+}
+div.content div.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+article div.content h5 {
+    color: var(--text-title-color);
+    font-size: var(--text-large-fontsize);
+    margin-bottom: 30px;
+}
+span.sale {
+    color: var(--text-price-sale);
+    font-size: var(--text-small-fontsize);
+    text-decoration: line-through;
+    font-weight: normal;
+}
+section.our-product article span.status-30::before {
+    content: "-30%";
+    background-color: var(--status-sale-color);
+    color: var(--text-sale-color);
+    font-size: var(--text-small-fontsize);
+    line-height: 48px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: absolute;
+    right: 24px;
+    top:  24px;
+}
+section.our-product article span.status-50::before {
+    content: "-50%";
+    background-color: var(--status-sale-color);
+    color: var(--text-sale-color);
+    font-size: var(--text-small-fontsize);
+    line-height: 48px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: absolute;
+    right: 24px;
+    top:  24px;
+}
+section.our-product article span.statusNew::before {
+    content: "New";
+    background-color: var(--status-new-color);
+    color: var(--text-sale-color);
+    font-size: var(--text-small-fontsize);
+    line-height: 48px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: absolute;
+    right: 24px;
+    top:  24px;
+}
