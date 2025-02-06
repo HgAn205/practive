@@ -59,51 +59,41 @@ span.sale {
     text-decoration: line-through;
     font-weight: normal;
 }
-section.our-product article span.status-30::before {
-    content: "-30%";
-    background-color: var(--status-sale-color);
+section.our-product article span.status {
     color: var(--text-sale-color);
     font-size: var(--text-small-fontsize);
     line-height: 48px;
     text-align: center;
     z-index: 1;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
     display: block;
+}
+section.our-product article span.status-30::before {
+    content: "-30%";
+    background-color: var(--status-sale-color);
+    border-radius: 50%;
+    width: var(--span-articleWH-PC);
+    height: var(--span-articleWH-PC);
     position: absolute;
-    right: 24px;
-    top:  24px;
+    right: var(--span-articleTR-pc);
+    top:  var(--span-articleTR-pc);
 }
 section.our-product article span.status-50::before {
     content: "-50%";
     background-color: var(--status-sale-color);
-    color: var(--text-sale-color);
-    font-size: var(--text-small-fontsize);
-    line-height: 48px;
-    text-align: center;
-    z-index: 1;
     border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    display: block;
+    width: var(--span-articleWH-PC);
+    height: var(--span-articleWH-PC);
     position: absolute;
-    right: 24px;
-    top:  24px;
+    right: var(--span-articleTR-pc);
+    top:  var(--span-articleTR-pc);
 }
 section.our-product article span.statusNew::before {
     content: "New";
     background-color: var(--status-new-color);
-    color: var(--text-sale-color);
-    font-size: var(--text-small-fontsize);
-    line-height: 48px;
-    text-align: center;
-    z-index: 1;
     border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    display: block;
+    width: var(--span-articleWH-PC);
+    height: var(--span-articleWH-PC);
     position: absolute;
-    right: 24px;
-    top:  24px;
+    right: var(--span-articleTR-pc);
+    top:  var(--span-articleTR-pc);
 }

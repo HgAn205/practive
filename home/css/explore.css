@@ -1,0 +1,33 @@
+section.explore {
+    background-color: #FCF8F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+    padding-left: 100px;
+}
+section.explore div.content-left {
+    margin-right: 42px;
+    width: 422px;
+}
+section.explore div.content-left h2 {
+    font-size: var(--text-title-fontsize);
+    color: var(--text-title-color);
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+section.explore div.content-left p {
+    font-size: var(--text-small-fontsize);
+    color: #616161;
+    margin-bottom: 37px;
+}
+section.explore div.content-left a {
+    background-color: var(--background-color-gold);
+    color: #FFFFFF;
+    padding: 12px 36px;
+    font-size: var(--text-small-fontsize);
+}
+section.explore div.img-right {
+    display: flex;
+    gap: 24px;
+}

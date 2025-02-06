@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    header {
+        justify-content: center;
+    }
+    header ul.navigate {
+        gap: 10px;
+    }
+    section.our-product div.spacing {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    section.explore {
+        padding-left: 15px;
+    }
+    section.explore div.content-left {
+        margin-right: 22px;
+    }
+    section.explore div.content-left h2 {
+        font-size: var(--text-small-fontsize);
+    }
+    section.explore div.content-left p {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    section.explore div.content-left a {
+        padding: 6px 18px;
+        font-size: 10px;
+    }
+    section.explore div.img-right {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,5 +1,5 @@
 @import url("header.css");
-@import url("newArrival.css");
+@import url("explore.css");
 @import url("our-product.css");
 @import url("type.css");
 @import url("setup.css");
@@ -7,4 +7,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
-
+@import url("media.css");
